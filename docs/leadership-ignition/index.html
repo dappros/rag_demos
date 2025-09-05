@@ -18,12 +18,35 @@
             color: #2c3e50;
             margin-bottom: 20px;
         }
-        .coming-soon {
-            background: #e8f4f8;
-            border: 1px solid #bee5eb;
+        .session-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
             border-radius: 8px;
-            padding: 40px;
-            margin: 40px 0;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .session-title {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .session-description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .session-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .session-link:hover {
+            background: #2980b9;
         }
         .back-link {
             display: inline-block;
@@ -42,10 +65,24 @@
 <body>
     <h1>Leadership Ignition</h1>
     
-    <div class="coming-soon">
-        <h2>🚧 Coming Soon</h2>
-        <p>This RAG demonstration is currently under development. It will showcase advanced retrieval techniques for leadership-related content and insights.</p>
-        <p>Check back soon for updates!</p>
+    <p>Explore our Leadership Ignition session outlines and materials. Each session is designed to help leaders develop key skills and insights.</p>
+
+    <div class="session-card">
+        <h2 class="session-title">Half Day Session Outline</h2>
+        <p class="session-description">A focused 4-hour leadership development session covering essential leadership principles and practical applications.</p>
+        <a href="Half%20Day%20Session%20Outline.html" class="session-link">View Half Day Outline</a>
+    </div>
+
+    <div class="session-card">
+        <h2 class="session-title">Full Day Session Outline</h2>
+        <p class="session-description">A comprehensive 8-hour leadership intensive with in-depth modules, exercises, and interactive learning components.</p>
+        <a href="Full%20Day%20Session%20Outline.html" class="session-link">View Full Day Outline</a>
+    </div>
+
+    <div class="session-card">
+        <h2 class="session-title">1.5 Day Session Outline</h2>
+        <p class="session-description">An extended 12-hour leadership program combining intensive learning with practical application and follow-up activities.</p>
+        <a href="1.5%20Day%20Session%20Outline.html" class="session-link">View 1.5 Day Outline</a>
     </div>
 
     <a href="../" class="back-link">← Back to RAG Demos</a>
