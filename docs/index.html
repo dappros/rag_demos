@@ -1,38 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <title>slava-medvedev/zelensky-speeches – index</title>
-  <style>
-  body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; background:#0f1220; color:#e8ecff}
-  main{max-width:1100px;margin:0 auto;padding:20px} header{max-width:1100px;margin:0 auto;padding:16px 20px 0}
-  h1{font-size:22px;margin:12px 0}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin:16px 0}
-  article{background:#161a2b;border:1px solid #262a45;border-radius:16px;padding:16px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
-  h2{font-size:16px;margin:0 0 8px}
-  .badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
-  .chip{display:inline-flex;align-items:center;gap:6px;background:#222642;border:1px solid #262a45;color:#9aa3c7;padding:4px 8px;border-radius:999px;font-size:12px}
-  p{white-space:pre-wrap;margin:0;color:#e1e6ff;line-height:1.45}
-  a{color:#6aa0ff;word-break:break-all;text-decoration:none}
-  nav ul{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
-  nav a.page{display:inline-block;padding:6px 10px;border-radius:10px;background:#222642;border:1px solid #262a45;text-decoration:none;color:#e8ecff;font-size:14px}
-  footer{max-width:1100px;margin:0 auto;padding:16px 20px 40px;color:#9aa3c7}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Demos - Multiple Projects</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .project-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .project-title {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .project-description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .project-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .project-link:hover {
+            background: #2980b9;
+        }
+        .coming-soon {
+            background: #e8f4f8;
+            border-color: #bee5eb;
+        }
+        .coming-soon .project-link {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        .coming-soon .project-link:hover {
+            background: #6c757d;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>slava-medvedev/zelensky-speeches – index</h1>
-    <div>Source: <a href="https://huggingface.co/datasets/slava-medvedev/zelensky-speeches">https://huggingface.co/datasets/slava-medvedev/zelensky-speeches</a></div>
-  </header>
-  <main>
-    <nav>
-      <ul>
-        <li><a class="page" href="page-0001.html">Page 1 <small>(100 rows)</small></a></li><li><a class="page" href="page-0002.html">Page 2 <small>(100 rows)</small></a></li><li><a class="page" href="page-0003.html">Page 3 <small>(100 rows)</small></a></li><li><a class="page" href="page-0004.html">Page 4 <small>(100 rows)</small></a></li><li><a class="page" href="page-0005.html">Page 5 <small>(100 rows)</small></a></li><li><a class="page" href="page-0006.html">Page 6 <small>(100 rows)</small></a></li><li><a class="page" href="page-0007.html">Page 7 <small>(100 rows)</small></a></li><li><a class="page" href="page-0008.html">Page 8 <small>(100 rows)</small></a></li><li><a class="page" href="page-0009.html">Page 9 <small>(100 rows)</small></a></li><li><a class="page" href="page-0010.html">Page 10 <small>(100 rows)</small></a></li><li><a class="page" href="page-0011.html">Page 11 <small>(100 rows)</small></a></li><li><a class="page" href="page-0012.html">Page 12 <small>(100 rows)</small></a></li><li><a class="page" href="page-0013.html">Page 13 <small>(100 rows)</small></a></li><li><a class="page" href="page-0014.html">Page 14 <small>(100 rows)</small></a></li><li><a class="page" href="page-0015.html">Page 15 <small>(100 rows)</small></a></li><li><a class="page" href="page-0016.html">Page 16 <small>(100 rows)</small></a></li><li><a class="page" href="page-0017.html">Page 17 <small>(100 rows)</small></a></li><li><a class="page" href="page-0018.html">Page 18 <small>(100 rows)</small></a></li><li><a class="page" href="page-0019.html">Page 19 <small>(100 rows)</small></a></li><li><a class="page" href="page-0020.html">Page 20 <small>(100 rows)</small></a></li><li><a class="page" href="page-0021.html">Page 21 <small>(100 rows)</small></a></li><li><a class="page" href="page-0022.html">Page 22 <small>(100 rows)</small></a></li><li><a class="page" href="page-0023.html">Page 23 <small>(100 rows)</small></a></li><li><a class="page" href="page-0024.html">Page 24 <small>(100 rows)</small></a></li><li><a class="page" href="page-0025.html">Page 25 <small>(100 rows)</small></a></li><li><a class="page" href="page-0026.html">Page 26 <small>(100 rows)</small></a></li><li><a class="page" href="page-0027.html">Page 27 <small>(100 rows)</small></a></li><li><a class="page" href="page-0028.html">Page 28 <small>(100 rows)</small></a></li><li><a class="page" href="page-0029.html">Page 29 <small>(100 rows)</small></a></li><li><a class="page" href="page-0030.html">Page 30 <small>(100 rows)</small></a></li><li><a class="page" href="page-0031.html">Page 31 <small>(100 rows)</small></a></li><li><a class="page" href="page-0032.html">Page 32 <small>(57 rows)</small></a></li>
-      </ul>
-    </nav>
-  </main>
-  <footer>License: CC BY 4.0. This index links to static subpages for easy crawling.</footer>
+    <h1>RAG Demos Collection</h1>
+    <p>Welcome to our collection of RAG (Retrieval-Augmented Generation) technology demonstrations. Each project showcases different aspects of RAG implementation using the Ethora AI Chat Widget.</p>
+
+    <div class="project-card">
+        <h2 class="project-title">Twin Zelensky</h2>
+        <p class="project-description">
+            A demonstration of RAG technology using Zelensky speeches dataset. This project shows how to build a static and dynamic interface for exploring speech content with AI-powered search and retrieval capabilities.
+        </p>
+        <a href="twin-zelensky/" class="project-link">View Twin Zelensky Demo</a>
+    </div>
+
+    <div class="project-card coming-soon">
+        <h2 class="project-title">Leadership Ignition</h2>
+        <p class="project-description">
+            An upcoming RAG demonstration focused on leadership content and insights. This project will showcase advanced retrieval techniques for leadership-related materials.
+        </p>
+        <a href="leadership-ignition/" class="project-link">Coming Soon</a>
+    </div>
+
+    <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666; text-align: center;">
+        <p>Built with RAG technology and Ethora AI Chat Widget</p>
+    </footer>
 </body>
 </html>
