@@ -154,6 +154,3 @@ It allows developers to rapidly build apps that combine **messaging, AI, and Web
 4. Optionally run `git add README.md && git commit -m "add improved README"` locally.
 
 ---
-
-Would you like me to add a **matching minimal runnable RAG demo (`basic_rag_openai.py` + `requirements.txt`)** next — so any developer can test this in under 5 minutes? It would match the Quick Start section in the README.
-```
