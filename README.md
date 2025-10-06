@@ -138,7 +138,7 @@ Ethora is a low-code “super-app” engine for **chat, AI assistants, digital w
 It allows developers to rapidly build apps that combine **messaging, AI, and Web3** in one stack.
 
 * 🌐 [ethora.com](https://ethora.com)
-* 💬 [Community Chat](https://beta.ethora.com)
+* 💬 [Community Forum](https://forum.ethora.com/)
 * 🧰 [Developer Docs](https://docs.ethora.com)
 
 ---
