@@ -3,6 +3,8 @@
 > Retrieval-Augmented Generation (RAG) demos built with [Ethora](https://ethora.com), [LangChain](https://www.langchain.com/), and [OpenAI](https://openai.com).  
 > Quickly learn how to build knowledge-based AI assistants that can index your own website or documents.
 
+**Part of the [Ethora SDK ecosystem](https://github.com/dappros/ethora#ecosystem)** — see all SDKs, tools, and sample apps. Follow cross-SDK updates in the [Release Notes](https://github.com/dappros/ethora/blob/main/RELEASE-NOTES.md).
+
 ---
 
 ## 🚀 Overview
